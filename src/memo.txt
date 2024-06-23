@@ -1,0 +1,6 @@
+remove_img.py: RoboflowからDLしたデータセットに対して、必要なラベルのデータのみを残す
+move_img:testフォルダがない場合、trainフォルダから指定枚数testフォルダを作成して移動する
+reindex.py:ラベル番号を指定の番号に変換するスクリプト
+outofbounds:バウンディングボックスの定義がおかしいもの(1以上の値など)を削除
+labelcheck:YOLO用以外のラベルが存在する場合は削除
+duplicatecheck:ラベルの重複がある場合は削除
